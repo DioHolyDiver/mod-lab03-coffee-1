@@ -8,6 +8,5 @@ int main() {
     vendingMachine.coin(100);
     vendingMachine.choice(2);
     vendingMachine.off();
-
     return 0;
 }
