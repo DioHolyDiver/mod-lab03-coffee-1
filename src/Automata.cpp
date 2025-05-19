@@ -42,8 +42,7 @@ void Automata::choice(int Num) {
         state = STATES::CHECK;
         if (check(Num - 1)) {
             cook(Num - 1);
-        }
-        else {
+        } else {
             std::cout << "Not enough money!" << std::endl;
             cancel();
         }
